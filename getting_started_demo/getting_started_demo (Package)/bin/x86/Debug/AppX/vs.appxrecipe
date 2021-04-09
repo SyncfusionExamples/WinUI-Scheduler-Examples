@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-09T10:18:33.300</Modified>
+      <Modified>2021-04-09T10:22:27.725</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-04-09T10:18:29.892</Modified>
+      <Modified>2021-04-09T10:22:23.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2021-04-09T10:18:29.892</Modified>
+      <Modified>2021-04-09T10:22:23.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -98,11 +98,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>getting_started_demo\getting_started_demo.exe</PackagePath>
-      <Modified>2021-04-09T10:18:30.205</Modified>
+      <Modified>2021-04-09T10:22:24.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\obj\x86\Debug\net5.0-windows10.0.19041.0\getting_started_demo.dll">
       <PackagePath>getting_started_demo\getting_started_demo.dll</PackagePath>
-      <Modified>2021-04-09T10:18:30.185</Modified>
+      <Modified>2021-04-09T10:22:23.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\bin\x86\Debug\net5.0-windows10.0.19041.0\getting_started_demo.runtimeconfig.json">
       <PackagePath>getting_started_demo\getting_started_demo.runtimeconfig.json</PackagePath>
