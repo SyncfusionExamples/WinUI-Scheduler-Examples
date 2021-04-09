@@ -1,0 +1,927 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows10.0.19041": {
+      "Microsoft.ProjectReunion/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "[0.5.0]",
+          "Microsoft.ProjectReunion.Foundation": "[0.5.0]",
+          "Microsoft.ProjectReunion.WinUI": "[0.5.0]"
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.props": {},
+          "build/Microsoft.ProjectReunion.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.ProjectReunion.DWrite.props": {},
+          "build/Microsoft.ProjectReunion.DWrite.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.Foundation/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.Foundation.props": {},
+          "build/Microsoft.ProjectReunion.Foundation.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.props": {},
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.targets": {}
+        }
+      },
+      "Syncfusion.Core.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {}
+        }
+      },
+      "Syncfusion.Editors.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {}
+        }
+      },
+      "Syncfusion.Scheduler.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {}
+        }
+      }
+    },
+    "net5.0-windows10.0.19041/win10-arm64": {
+      "Microsoft.ProjectReunion/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "[0.5.0]",
+          "Microsoft.ProjectReunion.Foundation": "[0.5.0]",
+          "Microsoft.ProjectReunion.WinUI": "[0.5.0]"
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.props": {},
+          "build/Microsoft.ProjectReunion.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.ProjectReunion.DWrite.props": {},
+          "build/Microsoft.ProjectReunion.DWrite.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.Foundation/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.Foundation.props": {},
+          "build/Microsoft.ProjectReunion.Foundation.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.props": {},
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.targets": {}
+        }
+      },
+      "Syncfusion.Core.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {}
+        }
+      },
+      "Syncfusion.Editors.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {}
+        }
+      },
+      "Syncfusion.Scheduler.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {}
+        }
+      }
+    },
+    "net5.0-windows10.0.19041/win10-x64": {
+      "Microsoft.ProjectReunion/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "[0.5.0]",
+          "Microsoft.ProjectReunion.Foundation": "[0.5.0]",
+          "Microsoft.ProjectReunion.WinUI": "[0.5.0]"
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.props": {},
+          "build/Microsoft.ProjectReunion.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.ProjectReunion.DWrite.props": {},
+          "build/Microsoft.ProjectReunion.DWrite.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.Foundation/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.Foundation.props": {},
+          "build/Microsoft.ProjectReunion.Foundation.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.props": {},
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.targets": {}
+        }
+      },
+      "Syncfusion.Core.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {}
+        }
+      },
+      "Syncfusion.Editors.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {}
+        }
+      },
+      "Syncfusion.Scheduler.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {}
+        }
+      }
+    },
+    "net5.0-windows10.0.19041/win10-x86": {
+      "Microsoft.ProjectReunion/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "[0.5.0]",
+          "Microsoft.ProjectReunion.Foundation": "[0.5.0]",
+          "Microsoft.ProjectReunion.WinUI": "[0.5.0]"
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.props": {},
+          "build/Microsoft.ProjectReunion.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.ProjectReunion.DWrite.props": {},
+          "build/Microsoft.ProjectReunion.DWrite.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.Foundation/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.Foundation.props": {},
+          "build/Microsoft.ProjectReunion.Foundation.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.props": {},
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.targets": {}
+        }
+      },
+      "Syncfusion.Core.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {}
+        }
+      },
+      "Syncfusion.Editors.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {}
+        }
+      },
+      "Syncfusion.Scheduler.WinUI/19.1.0.54-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "compile": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.ProjectReunion/0.5.0": {
+      "sha512": "MO0ECceTJPq9R8KK2HnCmqivPZkQW2PFzjH8dLr4Hg71QJ0GaGlNjPSLK98D9FOfGk+25DBP3byNIOwWLLhAvA==",
+      "type": "package",
+      "path": "microsoft.projectreunion/0.5.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.ProjectReunion.AppXReference.props",
+        "build/Microsoft.ProjectReunion.Metapackage.props",
+        "build/Microsoft.ProjectReunion.Package.props",
+        "build/Microsoft.ProjectReunion.props",
+        "build/Microsoft.ProjectReunion.targets",
+        "build/Microsoft.Xaml.Tooling.targets",
+        "build/MicrosoftProjectReunionFoundationAppXVersion.props",
+        "build/native/Microsoft.ProjectReunion.props",
+        "license.txt",
+        "microsoft.projectreunion.0.5.0.nupkg.sha512",
+        "microsoft.projectreunion.nuspec",
+        "tools/AppX/win10-arm64/Microsoft.ProjectReunion.0.5.appx",
+        "tools/AppX/win10-x64/Microsoft.ProjectReunion.0.5.appx",
+        "tools/AppX/win10-x86/Microsoft.ProjectReunion.0.5.appx"
+      ]
+    },
+    "Microsoft.ProjectReunion.DWrite/0.5.0": {
+      "sha512": "bhZCBRYWlbzFbWbcMV1VDi7SS7BBimb846Y8/0uH+Y7c8ZaKzd95BFqpXJMwuk3iINHcuOVkHsosnDxZSx1lzA==",
+      "type": "package",
+      "path": "microsoft.projectreunion.dwrite/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.ProjectReunion.DWrite.ProjectCapabilities.props",
+        "build/Microsoft.ProjectReunion.DWrite.props",
+        "build/Microsoft.ProjectReunion.DWrite.targets",
+        "lib/native/include/dwrite.h",
+        "lib/native/include/dwrite_1.h",
+        "lib/native/include/dwrite_2.h",
+        "lib/native/include/dwrite_3.h",
+        "lib/native/include/dwrite_core.h",
+        "lib/native/windows/arm64/DWriteCore.lib",
+        "lib/native/windows/x64/DWriteCore.lib",
+        "lib/native/windows/x86/DWriteCore.lib",
+        "license.txt",
+        "microsoft.projectreunion.dwrite.0.5.0.nupkg.sha512",
+        "microsoft.projectreunion.dwrite.nuspec"
+      ]
+    },
+    "Microsoft.ProjectReunion.Foundation/0.5.0": {
+      "sha512": "EI0ZVus3bxRqQKfthmPUxkNjHobN9ipCWec669RQxs7SYWsMnpOiWWCz20ElRIplwuPLEODsK+Wa7uff6b5X5w==",
+      "type": "package",
+      "path": "microsoft.projectreunion.foundation/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/Microsoft.ApplicationModel.Resources.PriGen.targets",
+        "build/Microsoft.ApplicationModel.Resources.References.targets",
+        "build/Microsoft.ApplicationModel.Resources.targets",
+        "build/Microsoft.ProjectReunion.Foundation.props",
+        "build/Microsoft.ProjectReunion.Foundation.targets",
+        "build/Microsoft.ProjectReunion.Package.props",
+        "build/README.md",
+        "build/native/Microsoft.ApplicationModel.Resources.C.props",
+        "build/native/Microsoft.ApplicationModel.Resources.WinRt.props",
+        "build/native/Microsoft.ApplicationModel.Resources.props",
+        "build/native/Microsoft.ApplicationModel.Resources.targets",
+        "build/native/Microsoft.ProjectReunion.Foundation.props",
+        "build/native/Microsoft.ProjectReunion.Foundation.targets",
+        "include/MRM.h",
+        "lib/native/Microsoft.ApplicationModel.Resources.winmd",
+        "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll",
+        "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.pdb",
+        "lib/uap10.0/Microsoft.ApplicationModel.Resources/Microsoft.ApplicationModel.Resources.winmd",
+        "lib/uap10.0/Microsoft.ProjectReunion.winmd",
+        "lib/win10-arm64/MRM.lib",
+        "lib/win10-arm64/Microsoft.ProjectReunion.lib",
+        "lib/win10-x64/MRM.lib",
+        "lib/win10-x64/Microsoft.ProjectReunion.lib",
+        "lib/win10-x86/MRM.lib",
+        "lib/win10-x86/Microsoft.ProjectReunion.lib",
+        "microsoft.projectreunion.foundation.0.5.0.nupkg.sha512",
+        "microsoft.projectreunion.foundation.nuspec"
+      ]
+    },
+    "Microsoft.ProjectReunion.WinUI/0.5.0": {
+      "sha512": "NrE4Nruh3fGevRCdBiwGUd4/jyb8zBsZVoSUi41G8EcvHB6jRqw/onxigXeDi4Zh/BG4gzsmzbxOQMzzWOaHww==",
+      "type": "package",
+      "path": "microsoft.projectreunion.winui/0.5.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppxManifest.xml",
+        "build/AppDevPackageScripts/Add-AppDevPackage.ps1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Install.ps1",
+        "build/AppDevPackageScripts/LogSideloadingTelemetry.ps1",
+        "build/DefaultWin32Manifests/default.manifest",
+        "build/DefaultWin32Manifests/dpiaware-permonv2.manifest",
+        "build/DefaultWin32Manifests/dpiaware-system.manifest",
+        "build/Microsoft.Build.Msix.Common.props",
+        "build/Microsoft.Build.Msix.Cpp.props",
+        "build/Microsoft.Build.Msix.Cpp.targets",
+        "build/Microsoft.Build.Msix.DesignTime.targets",
+        "build/Microsoft.Build.Msix.Packaging.targets",
+        "build/Microsoft.Build.Msix.Pri.targets",
+        "build/Microsoft.Build.Msix.ReunionManifest.targets",
+        "build/Microsoft.Build.Msix.props",
+        "build/Microsoft.Build.Msix.targets",
+        "build/Microsoft.ProjectReunion.Foundation.targets",
+        "build/Microsoft.ProjectReunion.Package.props",
+        "build/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "build/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "build/Microsoft.ProjectReunion.WinUI.props",
+        "build/Microsoft.ProjectReunion.WinUI.targets",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.props",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.targets",
+        "build/Microsoft.WinUI.AppX.targets",
+        "build/Microsoft.WinUI.NET.Markup.Compiler.targets",
+        "build/Microsoft.WinUI.ProjectCapabilities.props",
+        "build/Microsoft.WinUI.References.targets",
+        "build/Microsoft.WinUI.props",
+        "build/Microsoft.WinUI.targets",
+        "build/native/LiftedWinRTClassRegistrations.xml",
+        "build/native/LiftedWinRTClassRegistrationsUnpackaged.xml",
+        "build/native/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "build/native/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "build/native/Microsoft.ProjectReunion.WinUI.props",
+        "build/native/Microsoft.ProjectReunion.WinUI.targets",
+        "build/native/Microsoft.WinUI.References.targets",
+        "build/native/Microsoft.WinUI.props",
+        "build/native/Microsoft.WinUI.targets",
+        "build/update-project-capability-version.targets",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.ps1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Install.ps1",
+        "buildTransitive/AppDevPackageScripts/LogSideloadingTelemetry.ps1",
+        "buildTransitive/DefaultWin32Manifests/default.manifest",
+        "buildTransitive/DefaultWin32Manifests/dpiaware-permonv2.manifest",
+        "buildTransitive/DefaultWin32Manifests/dpiaware-system.manifest",
+        "buildTransitive/Microsoft.Build.Msix.Common.props",
+        "buildTransitive/Microsoft.Build.Msix.Cpp.props",
+        "buildTransitive/Microsoft.Build.Msix.Cpp.targets",
+        "buildTransitive/Microsoft.Build.Msix.DesignTime.targets",
+        "buildTransitive/Microsoft.Build.Msix.Packaging.targets",
+        "buildTransitive/Microsoft.Build.Msix.Pri.targets",
+        "buildTransitive/Microsoft.Build.Msix.ReunionManifest.targets",
+        "buildTransitive/Microsoft.Build.Msix.props",
+        "buildTransitive/Microsoft.Build.Msix.targets",
+        "buildTransitive/Microsoft.ProjectReunion.Foundation.targets",
+        "buildTransitive/Microsoft.ProjectReunion.Package.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.targets",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.props",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.targets",
+        "buildTransitive/Microsoft.WinUI.AppX.targets",
+        "buildTransitive/Microsoft.WinUI.NET.Markup.Compiler.targets",
+        "buildTransitive/Microsoft.WinUI.ProjectCapabilities.props",
+        "buildTransitive/Microsoft.WinUI.References.targets",
+        "buildTransitive/Microsoft.WinUI.props",
+        "buildTransitive/Microsoft.WinUI.targets",
+        "buildTransitive/native/LiftedWinRTClassRegistrations.xml",
+        "buildTransitive/native/LiftedWinRTClassRegistrationsUnpackaged.xml",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.props",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.targets",
+        "buildTransitive/native/Microsoft.WinUI.References.targets",
+        "buildTransitive/native/Microsoft.WinUI.props",
+        "buildTransitive/native/Microsoft.WinUI.targets",
+        "buildTransitive/update-project-capability-version.targets",
+        "include/Microsoft.Graphics.Interop.h",
+        "include/Microsoft.System.DispatcherQueue.Interop.h",
+        "include/Microsoft.UI.Composition.Interop.h",
+        "include/microsoft.ui.xaml.hosting.desktopwindowxamlsource.h",
+        "include/microsoft.ui.xaml.hosting.desktopwindowxamlsource.idl",
+        "include/microsoft.ui.xaml.hosting.referencetracker.h",
+        "include/microsoft.ui.xaml.hosting.referencetracker.idl",
+        "include/microsoft.ui.xaml.media.dxinterop.h",
+        "include/microsoft.ui.xaml.media.dxinterop.idl",
+        "include/microsoft.ui.xaml.window.h",
+        "include/microsoft.ui.xaml.window.idl",
+        "include/microsoft.ui.xaml.xamlroot.h",
+        "include/microsoft.ui.xaml.xamlroot.idl",
+        "include/winrtdirect3d11.h",
+        "include/winrtdirectxcommon.h",
+        "include/xamlom.h",
+        "include/xamlom.idl",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.xml",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI/Themes/generic.xaml",
+        "lib/uap10.0/Microsoft.Foundation.winmd",
+        "lib/uap10.0/Microsoft.Graphics.winmd",
+        "lib/uap10.0/Microsoft.System.winmd",
+        "lib/uap10.0/Microsoft.System.xml",
+        "lib/uap10.0/Microsoft.UI.Text.winmd",
+        "lib/uap10.0/Microsoft.UI.winmd",
+        "lib/uap10.0/Microsoft.UI.xml",
+        "lib/uap10.0/Microsoft.UI/Themes/generic.xaml",
+        "lib/uap10.0/Microsoft.Web.WebView2.Core.winmd",
+        "license.txt",
+        "microsoft.projectreunion.winui.0.5.0.nupkg.sha512",
+        "microsoft.projectreunion.winui.nuspec",
+        "tools/Microsoft.Build.Framework.dll",
+        "tools/Microsoft.Build.Msix.dll",
+        "tools/Microsoft.Build.Utilities.Core.dll",
+        "tools/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "tools/Microsoft.UI.Xaml.Markup.Compiler.MSBuildInterop.dll",
+        "tools/Microsoft.UI.Xaml.Markup.Compiler.dll",
+        "tools/Microsoft.VisualStudio.RemoteControl.dll",
+        "tools/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/Microsoft.VisualStudio.Telemetry.dll",
+        "tools/Microsoft.VisualStudio.Utilities.Internal.dll",
+        "tools/arm64/GenXbf.dll",
+        "tools/x64/GenXbf.dll",
+        "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Syncfusion.Core.WinUI/19.1.0.54-beta": {
+      "sha512": "KXVw0L46UYBGp5URNVvhIl8ebLpq/2e9BZHAtffVAoQiWJL33qCk8YSfD6+7k+4XeELl2a4U9RnK0wN8OgCTfg==",
+      "type": "package",
+      "path": "syncfusion.core.winui/19.1.0.54-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI.dll",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI.pri",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI.xml",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI/Themes/Common.xaml",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI/Themes/Common.xbf",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI/Themes/DensityStyles/Compact.xaml",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI/Themes/DensityStyles/Compact.xbf",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI/Themes/DensityStyles/Standard.xaml",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI/Themes/DensityStyles/Standard.xbf",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI/Themes/TextButton.xaml",
+        "lib/net5.0-windows/Syncfusion.Core.WinUI/Themes/TextButton.xbf",
+        "lib/uap10.0/Syncfusion.Core.WinUI.dll",
+        "lib/uap10.0/Syncfusion.Core.WinUI.pri",
+        "lib/uap10.0/Syncfusion.Core.WinUI.xml",
+        "lib/uap10.0/Syncfusion.Core.WinUI/Syncfusion.Core.WinUI.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.WinUI/Themes/Common.xaml",
+        "lib/uap10.0/Syncfusion.Core.WinUI/Themes/DensityStyles/Compact.xaml",
+        "lib/uap10.0/Syncfusion.Core.WinUI/Themes/DensityStyles/Standard.xaml",
+        "lib/uap10.0/Syncfusion.Core.WinUI/Themes/TextButton.xaml",
+        "syncfusion.core.winui.19.1.0.54-beta.nupkg.sha512",
+        "syncfusion.core.winui.nuspec"
+      ]
+    },
+    "Syncfusion.Editors.WinUI/19.1.0.54-beta": {
+      "sha512": "6+7X7D9hysfML7F2h0OSxbLpDyGpYMvJX6+zHjYp76qoriftt4pQA2lMEvFDg0r1hoKbk8BFwGdtOq5SQ3CDpw==",
+      "type": "package",
+      "path": "syncfusion.editors.winui/19.1.0.54-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI.pri",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI.xml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/colorpalette.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/colorpalette.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/colorpicker.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/colorpicker.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/colorpickerresources.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/colorpickerresources.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/datepicker.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/datepicker.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/datetimepickerresources.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/datetimepickerresources.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/datetimespinnerbase.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/datetimespinnerbase.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/dropdownbase.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/dropdownbase.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/dropdowncolorpalette.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/dropdowncolorpalette.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/dropdowncolorpicker.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/dropdowncolorpicker.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/generic.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/generic.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/gradientstopseditor.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/gradientstopseditor.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/gradientstopthumb.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/gradientstopthumb.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/lineargradienteditor.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/lineargradienteditor.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/radialgradienteditor.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/radialgradienteditor.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/solidcolorchanneleditor.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/solidcolorchanneleditor.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/solidcolorspectrumeditor.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/solidcolorspectrumeditor.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/spinnerview.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/spinnerview.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/themeresources.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/themeresources.xbf",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/timepicker.xaml",
+        "lib/net5.0-windows/Syncfusion.Editors.WinUI/Themes/timepicker.xbf",
+        "lib/uap10.0/Syncfusion.Editors.WinUI.dll",
+        "lib/uap10.0/Syncfusion.Editors.WinUI.pri",
+        "lib/uap10.0/Syncfusion.Editors.WinUI.xml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Syncfusion.Editors.WinUI.xr.xml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/colorpalette.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/colorpicker.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/colorpickerresources.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/datepicker.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/datetimepickerresources.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/datetimespinnerbase.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/dropdownbase.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/dropdowncolorpalette.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/dropdowncolorpicker.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/gradientstopseditor.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/gradientstopthumb.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/lineargradienteditor.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/radialgradienteditor.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/solidcolorchanneleditor.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/solidcolorspectrumeditor.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/spinnerview.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/themeresources.xaml",
+        "lib/uap10.0/Syncfusion.Editors.WinUI/Themes/timepicker.xaml",
+        "syncfusion.editors.winui.19.1.0.54-beta.nupkg.sha512",
+        "syncfusion.editors.winui.nuspec"
+      ]
+    },
+    "Syncfusion.Scheduler.WinUI/19.1.0.54-beta": {
+      "sha512": "Oyc9+y3YRz7SegiRFaJxisO103chpty9+Zf0uxFOgK10wMNZmhx4GJM5sWOHA2ztE9LFK0UVjiN+KieLnnjsIg==",
+      "type": "package",
+      "path": "syncfusion.scheduler.winui/19.1.0.54-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.pri",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.xml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/agendaviewstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/agendaviewstyle.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/alldayappointmentpanelstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/alldayappointmentpanelstyle.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/appointmenteditorstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/appointmenteditorstyle.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/appointmentstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/appointmentstyle.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/generic.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/generic.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/monthviewstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/monthviewstyle.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/recurrenceeditorstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/recurrenceeditorstyle.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/schedulerheaderstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/schedulerheaderstyle.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/themeresources.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/themeresources.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/timeslotviewstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/timeslotviewstyle.xbf",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/viewheaderstyle.xaml",
+        "lib/net5.0-windows/Syncfusion.Scheduler.WinUI/Themes/viewheaderstyle.xbf",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI.dll",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI.pri",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI.xml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Syncfusion.Scheduler.WinUI.xr.xml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/agendaviewstyle.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/alldayappointmentpanelstyle.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/appointmenteditorstyle.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/appointmentstyle.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/monthviewstyle.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/recurrenceeditorstyle.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/schedulerheaderstyle.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/themeresources.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/timeslotviewstyle.xaml",
+        "lib/uap10.0/Syncfusion.Scheduler.WinUI/Themes/viewheaderstyle.xaml",
+        "syncfusion.scheduler.winui.19.1.0.54-beta.nupkg.sha512",
+        "syncfusion.scheduler.winui.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows10.0.19041": [
+      "Microsoft.ProjectReunion >= 0.5.0",
+      "Microsoft.ProjectReunion.Foundation >= 0.5.0",
+      "Microsoft.ProjectReunion.WinUI >= 0.5.0",
+      "Syncfusion.Core.WinUI >= 19.1.0.54-beta",
+      "Syncfusion.Editors.WinUI >= 19.1.0.54-beta",
+      "Syncfusion.Scheduler.WinUI >= 19.1.0.54-beta"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KarthickMani\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.1.0.54\\ToolboxNuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\KarthickMani\\Desktop\\WinUi Sample HitHub\\syncfusion-winui-scheduler-examples\\getting_started_demo\\getting_started_demo\\getting_started_demo.csproj",
+      "projectName": "getting_started_demo",
+      "projectPath": "C:\\Users\\KarthickMani\\Desktop\\WinUi Sample HitHub\\syncfusion-winui-scheduler-examples\\getting_started_demo\\getting_started_demo\\getting_started_demo.csproj",
+      "packagesPath": "C:\\Users\\KarthickMani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KarthickMani\\Desktop\\WinUi Sample HitHub\\syncfusion-winui-scheduler-examples\\getting_started_demo\\getting_started_demo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.1.0.54\\ToolboxNuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\KarthickMani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows10.0.19041"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\KarthickMani\\Desktop\\Assemblies(18.3)\\WinUI\\19.1.0.46\\NuGetPackages": {},
+        "C:\\Users\\KarthickMani\\Desktop\\Assemblies(18.3)\\WinUI\\19.1.0.54\\NuGetPackages": {},
+        "D:\\Scheduler Nuget packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows10.0.19041": {
+          "targetAlias": "net5.0-windows10.0.19041.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows10.0.19041": {
+        "targetAlias": "net5.0-windows10.0.19041.0",
+        "dependencies": {
+          "Microsoft.ProjectReunion": {
+            "target": "Package",
+            "version": "[0.5.0, )"
+          },
+          "Microsoft.ProjectReunion.Foundation": {
+            "target": "Package",
+            "version": "[0.5.0, )"
+          },
+          "Microsoft.ProjectReunion.WinUI": {
+            "target": "Package",
+            "version": "[0.5.0, )"
+          },
+          "Syncfusion.Core.WinUI": {
+            "target": "Package",
+            "version": "[19.1.0.54-beta, )"
+          },
+          "Syncfusion.Editors.WinUI": {
+            "target": "Package",
+            "version": "[19.1.0.54-beta, )"
+          },
+          "Syncfusion.Scheduler.WinUI": {
+            "target": "Package",
+            "version": "[19.1.0.54-beta, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+            "version": "[5.0.4, 5.0.4]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[5.0.4, 5.0.4]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+            "version": "[5.0.4, 5.0.4]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+            "version": "[5.0.4, 5.0.4]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[5.0.4, 5.0.4]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x86",
+            "version": "[5.0.4, 5.0.4]"
+          },
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.19041.13, 10.0.19041.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[5.0.4, 5.0.4]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+            "version": "[5.0.4, 5.0.4]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win10-arm64": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      }
+    }
+  }
+}

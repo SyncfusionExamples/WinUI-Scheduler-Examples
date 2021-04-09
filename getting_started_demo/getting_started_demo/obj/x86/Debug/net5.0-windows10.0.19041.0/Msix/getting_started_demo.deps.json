@@ -1,0 +1,160 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "getting_started_demo/1.0.0": {
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta",
+          "Syncfusion.Editors.WinUI": "19.1.0.54-beta",
+          "Syncfusion.Scheduler.WinUI": "19.1.0.54-beta",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.13"
+        },
+        "runtime": {
+          "getting_started_demo.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.13": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.10",
+            "fileVersion": "10.0.19041.13"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.1.34171"
+          }
+        }
+      },
+      "Microsoft.ProjectReunion/0.5.0": {
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.0": {},
+      "Microsoft.ProjectReunion.Foundation/0.5.0": {
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.0": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.2103"
+          }
+        }
+      },
+      "Syncfusion.Core.WinUI/19.1.0.54-beta": {
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Core.WinUI.dll": {
+            "assemblyVersion": "19.1500.0.54",
+            "fileVersion": "19.1500.0.54"
+          }
+        }
+      },
+      "Syncfusion.Editors.WinUI/19.1.0.54-beta": {
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Editors.WinUI.dll": {
+            "assemblyVersion": "19.1500.0.54",
+            "fileVersion": "19.1500.0.54"
+          }
+        }
+      },
+      "Syncfusion.Scheduler.WinUI/19.1.0.54-beta": {
+        "dependencies": {
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Syncfusion.Core.WinUI": "19.1.0.54-beta"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Scheduler.WinUI.dll": {
+            "assemblyVersion": "19.1500.0.54",
+            "fileVersion": "19.1500.0.54"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "getting_started_demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.13": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ProjectReunion/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MO0ECceTJPq9R8KK2HnCmqivPZkQW2PFzjH8dLr4Hg71QJ0GaGlNjPSLK98D9FOfGk+25DBP3byNIOwWLLhAvA==",
+      "path": "microsoft.projectreunion/0.5.0",
+      "hashPath": "microsoft.projectreunion.0.5.0.nupkg.sha512"
+    },
+    "Microsoft.ProjectReunion.DWrite/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhZCBRYWlbzFbWbcMV1VDi7SS7BBimb846Y8/0uH+Y7c8ZaKzd95BFqpXJMwuk3iINHcuOVkHsosnDxZSx1lzA==",
+      "path": "microsoft.projectreunion.dwrite/0.5.0",
+      "hashPath": "microsoft.projectreunion.dwrite.0.5.0.nupkg.sha512"
+    },
+    "Microsoft.ProjectReunion.Foundation/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EI0ZVus3bxRqQKfthmPUxkNjHobN9ipCWec669RQxs7SYWsMnpOiWWCz20ElRIplwuPLEODsK+Wa7uff6b5X5w==",
+      "path": "microsoft.projectreunion.foundation/0.5.0",
+      "hashPath": "microsoft.projectreunion.foundation.0.5.0.nupkg.sha512"
+    },
+    "Microsoft.ProjectReunion.WinUI/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NrE4Nruh3fGevRCdBiwGUd4/jyb8zBsZVoSUi41G8EcvHB6jRqw/onxigXeDi4Zh/BG4gzsmzbxOQMzzWOaHww==",
+      "path": "microsoft.projectreunion.winui/0.5.0",
+      "hashPath": "microsoft.projectreunion.winui.0.5.0.nupkg.sha512"
+    },
+    "Syncfusion.Core.WinUI/19.1.0.54-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KXVw0L46UYBGp5URNVvhIl8ebLpq/2e9BZHAtffVAoQiWJL33qCk8YSfD6+7k+4XeELl2a4U9RnK0wN8OgCTfg==",
+      "path": "syncfusion.core.winui/19.1.0.54-beta",
+      "hashPath": "syncfusion.core.winui.19.1.0.54-beta.nupkg.sha512"
+    },
+    "Syncfusion.Editors.WinUI/19.1.0.54-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6+7X7D9hysfML7F2h0OSxbLpDyGpYMvJX6+zHjYp76qoriftt4pQA2lMEvFDg0r1hoKbk8BFwGdtOq5SQ3CDpw==",
+      "path": "syncfusion.editors.winui/19.1.0.54-beta",
+      "hashPath": "syncfusion.editors.winui.19.1.0.54-beta.nupkg.sha512"
+    },
+    "Syncfusion.Scheduler.WinUI/19.1.0.54-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Oyc9+y3YRz7SegiRFaJxisO103chpty9+Zf0uxFOgK10wMNZmhx4GJM5sWOHA2ztE9LFK0UVjiN+KieLnnjsIg==",
+      "path": "syncfusion.scheduler.winui/19.1.0.54-beta",
+      "hashPath": "syncfusion.scheduler.winui.19.1.0.54-beta.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "PIk+QbgIP8JJIB9XqmvNfGnZ8qP91ztp2VIBPPCI1/bKQFbIvnJrIK+FENY87/xaHpUEZr7MAxpqS8H2i/BFhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KarthickMani\\Desktop\\WinUi Sample HitHub\\syncfusion-winui-scheduler-examples\\getting_started_demo\\getting_started_demo (Package)\\getting_started_demo (Package).wapproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KarthickMani\\.nuget\\packages\\microsoft.projectreunion\\0.5.0\\microsoft.projectreunion.0.5.0.nupkg.sha512",
+    "C:\\Users\\KarthickMani\\.nuget\\packages\\microsoft.projectreunion.dwrite\\0.5.0\\microsoft.projectreunion.dwrite.0.5.0.nupkg.sha512",
+    "C:\\Users\\KarthickMani\\.nuget\\packages\\microsoft.projectreunion.foundation\\0.5.0\\microsoft.projectreunion.foundation.0.5.0.nupkg.sha512",
+    "C:\\Users\\KarthickMani\\.nuget\\packages\\microsoft.projectreunion.winui\\0.5.0\\microsoft.projectreunion.winui.0.5.0.nupkg.sha512",
+    "C:\\Users\\KarthickMani\\.nuget\\packages\\syncfusion.core.winui\\19.1.0.54-beta\\syncfusion.core.winui.19.1.0.54-beta.nupkg.sha512",
+    "C:\\Users\\KarthickMani\\.nuget\\packages\\syncfusion.editors.winui\\19.1.0.54-beta\\syncfusion.editors.winui.19.1.0.54-beta.nupkg.sha512",
+    "C:\\Users\\KarthickMani\\.nuget\\packages\\syncfusion.scheduler.winui\\19.1.0.54-beta\\syncfusion.scheduler.winui.19.1.0.54-beta.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,27 @@
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\bin\x86\Debug\AppxContent\Microsoft.Internal.FrameworkUdk.dll
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\bin\x86\Debug\AppxContent\Microsoft.ui.xaml.dll
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\Images\SplashScreen.scale-200.png
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\Images\LockScreenLogo.scale-200.png
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\Images\Square150x150Logo.scale-200.png
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\Images\Square44x44Logo.scale-200.png
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\Images\StoreLogo.png
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\Images\Wide310x150Logo.scale-200.png
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo (Package)\bin\x86\Debug\resources.pri
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\obj\x86\Debug\net5.0-windows10.0.19041.0\Msix\getting_started_demo.deps.json
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\obj\x86\Debug\net5.0-windows10.0.19041.0\getting_started_demo.dll
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\bin\x86\Debug\net5.0-windows10.0.19041.0\getting_started_demo.runtimeconfig.json
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\obj\x86\Debug\net5.0-windows10.0.19041.0\getting_started_demo.pdb
+C:\Users\KarthickMani\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.13\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\KarthickMani\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.13\lib\WinRT.Runtime.dll
+C:\Users\KarthickMani\.nuget\packages\microsoft.projectreunion.foundation\0.5.0\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll
+C:\Users\KarthickMani\.nuget\packages\microsoft.projectreunion.winui\0.5.0\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\KarthickMani\.nuget\packages\syncfusion.core.winui\19.1.0.54-beta\lib\net5.0-windows\Syncfusion.Core.WinUI.dll
+C:\Users\KarthickMani\.nuget\packages\syncfusion.editors.winui\19.1.0.54-beta\lib\net5.0-windows\Syncfusion.Editors.WinUI.dll
+C:\Users\KarthickMani\.nuget\packages\syncfusion.scheduler.winui\19.1.0.54-beta\lib\net5.0-windows\Syncfusion.Scheduler.WinUI.dll
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\bin\x86\Debug\net5.0-windows10.0.19041.0\AppxContent\Microsoft.Internal.FrameworkUdk.dll
+C:\Users\KarthickMani\Desktop\WinUi Sample HitHub\syncfusion-winui-scheduler-examples\getting_started_demo\getting_started_demo\bin\x86\Debug\net5.0-windows10.0.19041.0\AppxContent\Microsoft.ui.xaml.dll
