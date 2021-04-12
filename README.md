@@ -1,4 +1,4 @@
-# Syncfusion WinUI Scheduler control examples
+# Syncfusion WinUI 3 Scheduler control examples
 
 This repository contains the samples that demonstrate the functionalities of WinUI Scheduler control.
 
