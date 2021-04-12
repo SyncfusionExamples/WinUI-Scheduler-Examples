@@ -9,9 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI;
 
-namespace GettingStarted
+namespace GettingStarted_Desktop
 {
-    public class SchedulerViewModel : NotificationObject
+    public class SchedulerViewModel
     {
         public SchedulerViewModel()
         {

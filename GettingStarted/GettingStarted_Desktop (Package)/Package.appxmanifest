@@ -7,12 +7,12 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="0fffb555-64af-436d-8bad-99d0c75b382c"
+    Name="905d1a3d-79a4-4f34-bc42-aafd82aa9895"
     Publisher="CN=KarthickMani"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>GettingStarted (Package)</DisplayName>
+    <DisplayName>GettingStarted_Desktop (Package)</DisplayName>
     <PublisherDisplayName>KarthickMani</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
@@ -31,8 +31,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="GettingStarted (Package)"
-        Description="GettingStarted (Package)"
+        DisplayName="GettingStarted_Desktop (Package)"
+        Description="GettingStarted_Desktop (Package)"
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"
         Square44x44Logo="Images\Square44x44Logo.png">
