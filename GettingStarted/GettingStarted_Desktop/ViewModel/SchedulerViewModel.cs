@@ -31,7 +31,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddHours(11),
                 Subject = "Client Meeting",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 133, 81, 242)),
-                Foreground = new SolidColorBrush(Colors.White),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255)),
             });
 
             scheduleAppointmentCollection.Add(new ScheduleAppointment
@@ -40,7 +40,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddDays(1).AddHours(14),
                 Subject = "GoToMeeting",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 140, 245, 219)),
-                Foreground = new SolidColorBrush(Colors.Black),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 0, 0)),
             });
 
             scheduleAppointmentCollection.Add(new ScheduleAppointment
@@ -49,7 +49,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddDays(-1).AddHours(10),
                 Subject = "Generate Report",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 83, 99, 250)),
-                Foreground = new SolidColorBrush(Colors.White),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255)),
             });
 
             scheduleAppointmentCollection.Add(new ScheduleAppointment
@@ -58,7 +58,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddDays(2).AddHours(15),
                 Subject = "Generate Report",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 255, 222, 133)),
-                Foreground = new SolidColorBrush(Colors.Black),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 0, 0)),
             });
 
             scheduleAppointmentCollection.Add(new ScheduleAppointment
@@ -67,7 +67,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddDays(-2).AddHours(5),
                 Subject = "Plan Execution",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 45, 153, 255)),
-                Foreground = new SolidColorBrush(Colors.White),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255)),
             });
 
             scheduleAppointmentCollection.Add(new ScheduleAppointment
@@ -76,7 +76,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddDays(0).AddHours(6),
                 Subject = "Consulting",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 253, 183, 165)),
-                Foreground = new SolidColorBrush(Colors.Black),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 0, 0)),
             });
 
             scheduleAppointmentCollection.Add(new ScheduleAppointment
@@ -85,7 +85,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddDays(1).AddHours(10),
                 Subject = "Performance Check",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 198, 237, 115)),
-                Foreground = new SolidColorBrush(Colors.Black),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 0, 0)),
             });
 
             scheduleAppointmentCollection.Add(new ScheduleAppointment
@@ -94,7 +94,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddDays(3).AddHours(18),
                 Subject = "Project Plan",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 253, 185, 222)),
-                Foreground = new SolidColorBrush(Colors.Black),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 0, 0)),
             });
 
             scheduleAppointmentCollection.Add(new ScheduleAppointment
@@ -103,7 +103,7 @@ namespace GettingStarted_Desktop
                 EndTime = DateTime.Now.Date.AddDays(0).AddHours(18),
                 Subject = "Consulting",
                 AppointmentBackground = new SolidColorBrush(Color.FromArgb(255, 83, 99, 250)),
-                Foreground = new SolidColorBrush(Colors.White),
+                Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255)),
                 IsAllDay = true
             });
 
