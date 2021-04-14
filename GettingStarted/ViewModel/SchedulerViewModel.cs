@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI;
 
-namespace GettingStarted_Desktop
+namespace GettingStarted
 {
     public class SchedulerViewModel
     {

@@ -12,11 +12,12 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
+using Syncfusion.UI.Xaml.Scheduler;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace GettingStarted_UWP
+namespace GettingStarted
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -26,6 +27,16 @@ namespace GettingStarted_UWP
         public MainPage()
         {
             this.InitializeComponent();
+            this.InitializeComboBoxItemSource();
+        }
+
+        /// <summary>
+        /// 
+        /// Method to get scheduler view types.
+        /// </summary>
+        private void InitializeComboBoxItemSource()
+        {
+            this.viewtypecombobox.ItemsSource = Enum.GetValues(typeof(SchedulerViewType));
         }
     }
 }

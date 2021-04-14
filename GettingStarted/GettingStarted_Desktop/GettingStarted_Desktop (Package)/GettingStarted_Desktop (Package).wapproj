@@ -32,16 +32,15 @@
   <PropertyGroup>
     <WapProjPath Condition="'$(WapProjPath)'==''">$(MSBuildExtensionsPath)\Microsoft\DesktopBridge\</WapProjPath>
     <PathToXAMLWinRTImplementations>GettingStarted_Desktop\</PathToXAMLWinRTImplementations>
-    <AssetTargetFallback>net5.0-windows$(TargetPlatformVersion);$(AssetTargetFallback)</AssetTargetFallback>
   </PropertyGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
   <PropertyGroup>
-    <ProjectGuid>9fc40b30-d7c3-4b10-b3a5-ed17dcad920f</ProjectGuid>
+    <ProjectGuid>1f0deaf1-3b47-4b42-9172-7a3f9855f411</ProjectGuid>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
     <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
-    <EntryPointProjectUniqueName>..\GettingStarted_Desktop\GettingStarted_Desktop.csproj</EntryPointProjectUniqueName>
+    <AppxTargetsLocation Condition="'$(AppxTargetsLocation)'==''">$(MSBuildThisFileDirectory)build\</AppxTargetsLocation>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -57,28 +56,44 @@
     <Content Include="Images\StoreLogo.png" />
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
+  <PropertyGroup>
+    <!--PackageReference.GeneratePathProperty does not support NUGET_PACKAGES env var...-->
+    <NuGetPackageRoot Condition="'$(NuGetPackageRoot)'==''">$(NUGET_PACKAGES)</NuGetPackageRoot>
+    <NuGetPackageRoot Condition="'$(NuGetPackageRoot)'==''">$(UserProfile)\.nuget\packages</NuGetPackageRoot>
+    <PkgMicrosoft_ProjectReunion Condition="'$(PkgMicrosoft_ProjectReunion)'==''">$([MSBuild]::NormalizeDirectory('$(NuGetPackageRoot)', 'Microsoft.ProjectReunion', '0.5.0-prerelease'))</PkgMicrosoft_ProjectReunion>
+    <PkgMicrosoft_ProjectReunion Condition="!Exists($(PkgMicrosoft_ProjectReunion))">$(SolutionDir)packages\Microsoft.ProjectReunion.0.5.0-prerelease\</PkgMicrosoft_ProjectReunion>
+    <PkgMicrosoft_ProjectReunion_WinUI Condition="'$(PkgMicrosoft_ProjectReunion_WinUI)'==''">$([MSBuild]::NormalizeDirectory('$(NuGetPackageRoot)', 'Microsoft.ProjectReunion.WinUI', '0.5.0-prerelease'))</PkgMicrosoft_ProjectReunion_WinUI>
+    <PkgMicrosoft_ProjectReunion_WinUI Condition="!Exists($(PkgMicrosoft_ProjectReunion_WinUI))">$(SolutionDir)packages\Microsoft.ProjectReunion.WinUI.0.5.0-prerelease\</PkgMicrosoft_ProjectReunion_WinUI>
+    <Microsoft_ProjectReunion_AppXReference_props>$([MSBuild]::NormalizeDirectory('$(PkgMicrosoft_ProjectReunion)', 'build'))Microsoft.ProjectReunion.AppXReference.props</Microsoft_ProjectReunion_AppXReference_props>
+    <Microsoft_WinUI_AppX_targets>$([MSBuild]::NormalizeDirectory('$(PkgMicrosoft_ProjectReunion_WinUI)', 'build'))Microsoft.WinUI.AppX.targets</Microsoft_WinUI_AppX_targets>
+    <EntryPointProjectUniqueName>..\..\GettingStarted_Desktop.csproj</EntryPointProjectUniqueName>
+  </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GettingStarted_Desktop\GettingStarted_Desktop.csproj">
-      <SkipGetTargetFrameworkProperties>True</SkipGetTargetFrameworkProperties>
-      <PublishProfile>Properties\PublishProfiles\win10-$(Platform).pubxml</PublishProfile>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.ProjectReunion" Version="[0.5.0]">
-      <IncludeAssets>build</IncludeAssets>
+    <PackageReference Include="Microsoft.ProjectReunion" Version="0.5.0" GeneratePathProperty="true">
+      <ExcludeAssets>all</ExcludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.ProjectReunion.WinUI" Version="[0.5.0]">
-      <IncludeAssets>build</IncludeAssets>
+    <PackageReference Include="Microsoft.ProjectReunion.Foundation">
+      <Version>0.5.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ProjectReunion.WinUI" Version="0.5.0" GeneratePathProperty="true">
+      <ExcludeAssets>all</ExcludeAssets>
     </PackageReference>
     <PackageReference Include="Syncfusion.Core.WinUI">
-      <Version>19.1.0.54-beta</Version>
+      <Version>19.1.0.56-beta</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Editors.WinUI">
-      <Version>19.1.0.54-beta</Version>
+      <Version>19.1.0.56-beta</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Scheduler.WinUI">
-      <Version>19.1.0.54-beta</Version>
+      <Version>19.1.0.56-beta</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GettingStarted_Desktop.csproj">
+      <SkipGetTargetFrameworkProperties>True</SkipGetTargetFrameworkProperties>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
+  <Import Project="$(Microsoft_ProjectReunion_AppXReference_props)" />
+  <Import Project="$(Microsoft_WinUI_AppX_targets)" />
 </Project>
