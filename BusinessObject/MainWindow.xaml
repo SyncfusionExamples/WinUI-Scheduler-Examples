@@ -9,9 +9,6 @@
     mc:Ignorable="d">
 
     <Grid>
-        <Grid.Resources>
-            <local:EnumDisplayNameConverter x:Key="enumDisplayNameConverter"/>
-        </Grid.Resources>
         <Grid.DataContext>
             <local:BusinessObjectViewModel/>
         </Grid.DataContext>
