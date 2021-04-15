@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.UI;
 
-namespace CustomAppointment
+namespace BusinessObject
 {
-    class CustomAppointmentViewModel : NotificationObject
+    class BusinessObjectViewModel : NotificationObject
     {
         #region Fields
 
@@ -92,7 +92,7 @@ namespace CustomAppointment
         /// <summary>
         /// Initializes a new instance of the <see cref="ScheduleViewModel" /> class.
         /// </summary>
-        public CustomAppointmentViewModel()
+        public BusinessObjectViewModel()
         {
             this.Appointments = new ObservableCollection<Event>();
             this.CreateRandomNumbersCollection();

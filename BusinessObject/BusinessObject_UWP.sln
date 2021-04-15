@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.218
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAppointment_UWP", "CustomAppointment_UWP.csproj", "{DE899EE8-FC65-4E7D-A93F-D608DD1D3F2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject_UWP", "BusinessObject_UWP.csproj", "{DE899EE8-FC65-4E7D-A93F-D608DD1D3F2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +38,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FAB858E0-EA7D-4367-A483-069DF64D741C}
+		SolutionGuid = {C718CEA0-F779-4A6D-A843-4B59B9456D05}
 	EndGlobalSection
 EndGlobal
