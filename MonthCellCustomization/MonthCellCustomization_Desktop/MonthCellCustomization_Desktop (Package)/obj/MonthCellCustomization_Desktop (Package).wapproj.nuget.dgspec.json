@@ -1,0 +1,260 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop\\MonthCellCustomization_Desktop (Package)\\MonthCellCustomization_Desktop (Package).wapproj": {}
+  },
+  "projects": {
+    "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop.csproj",
+        "projectName": "MonthCellCustomization",
+        "projectPath": "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop.csproj",
+        "packagesPath": "C:\\Users\\KarthickMani\\.nuget\\packages\\",
+        "outputPath": "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.1.0.54\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KarthickMani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows10.0.19041"
+        ],
+        "sources": {
+          "C:\\Users\\KarthickMani\\Desktop\\Assemblies(18.3)\\WinUI\\19.1.0.54\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows10.0.19041": {
+            "targetAlias": "net5.0-windows10.0.19041.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows10.0.19041": {
+          "targetAlias": "net5.0-windows10.0.19041.0",
+          "dependencies": {
+            "Microsoft.ProjectReunion": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Microsoft.ProjectReunion.Foundation": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Microsoft.ProjectReunion.WinUI": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Syncfusion.Core.WinUI": {
+              "target": "Package",
+              "version": "[19.1.0.56-beta, )"
+            },
+            "Syncfusion.Editors.WinUI": {
+              "target": "Package",
+              "version": "[19.1.0.56-beta, )"
+            },
+            "Syncfusion.Scheduler.WinUI": {
+              "target": "Package",
+              "version": "[19.1.0.56-beta, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.13, 10.0.19041.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[5.0.4, 5.0.4]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[5.0.4, 5.0.4]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-arm64": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop\\MonthCellCustomization_Desktop (Package)\\MonthCellCustomization_Desktop (Package).wapproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop\\MonthCellCustomization_Desktop (Package)\\MonthCellCustomization_Desktop (Package).wapproj",
+        "projectName": "MonthCellCustomization_Desktop (Package)",
+        "projectPath": "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop\\MonthCellCustomization_Desktop (Package)\\MonthCellCustomization_Desktop (Package).wapproj",
+        "packagesPath": "C:\\Users\\KarthickMani\\.nuget\\packages\\",
+        "outputPath": "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop\\MonthCellCustomization_Desktop (Package)\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.1.0.54\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KarthickMani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Users\\KarthickMani\\Desktop\\Assemblies(18.3)\\WinUI\\19.1.0.54\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop.csproj": {
+                "projectPath": "D:\\w\\WinUI-Scheduler-Examples\\MonthCellCustomization\\MonthCellCustomization_Desktop.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.ProjectReunion": {
+              "include": "None",
+              "target": "Package",
+              "version": "[0.5.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.ProjectReunion.Foundation": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Microsoft.ProjectReunion.WinUI": {
+              "include": "None",
+              "target": "Package",
+              "version": "[0.5.0, )",
+              "generatePathProperty": true
+            },
+            "Syncfusion.Core.WinUI": {
+              "target": "Package",
+              "version": "[19.1.0.56-beta, )"
+            },
+            "Syncfusion.Editors.WinUI": {
+              "target": "Package",
+              "version": "[19.1.0.56-beta, )"
+            },
+            "Syncfusion.Scheduler.WinUI": {
+              "target": "Package",
+              "version": "[19.1.0.56-beta, )"
+            }
+          },
+          "imports": [
+            "net5.0-windows10.0.19041",
+            "netcoreapp3.1",
+            "netcoreapp3.0",
+            "netcoreapp2.0",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net5.0-windows10.0.17763",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
