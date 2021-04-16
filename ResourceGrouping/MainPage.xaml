@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="ResourceGrouping.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ResourceGrouping"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:scheduler="using:Syncfusion.UI.Xaml.Scheduler"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <local:ResourceViewModel/>
+    </Page.DataContext>
+    <Grid>
+        <scheduler:SfScheduler x:Name="Schedule"
+                              ViewType="{Binding ElementName=viewtypecombobox, Path=SelectedValue,Mode=TwoWay}"
+                              ResourceGroupType="{Binding ElementName=resourcegrouptypecombobox, Path=SelectedValue,Mode=TwoWay}"
+                              ResourceCollection="{Binding Resources}"
+                              ItemsSource="{Binding ResourceAppointments}">
+        </scheduler:SfScheduler>
+        
+        <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Margin="0,5,10,0">
+            <ComboBox Width="180" Height="30" Margin="0,0,5,0" x:Name="viewtypecombobox" SelectedIndex="2"/>
+            <ComboBox Width="100" Height="30" x:Name="resourcegrouptypecombobox" SelectedIndex="1"/>
+        </StackPanel>
+    </Grid>
+</Page>

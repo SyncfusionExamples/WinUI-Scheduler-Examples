@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialTimeRegionCustomization_UWP", "SpecialTimeRegionCustomization_UWP.csproj", "{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|arm64.ActiveCfg = Debug|arm64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|arm64.Build.0 = Debug|arm64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|arm64.Deploy.0 = Debug|arm64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|x64.ActiveCfg = Debug|x64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|x64.Build.0 = Debug|x64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|x64.Deploy.0 = Debug|x64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|x86.ActiveCfg = Debug|x86
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|x86.Build.0 = Debug|x86
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Debug|x86.Deploy.0 = Debug|x86
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|arm64.ActiveCfg = Release|arm64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|arm64.Build.0 = Release|arm64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|arm64.Deploy.0 = Release|arm64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|x64.ActiveCfg = Release|x64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|x64.Build.0 = Release|x64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|x64.Deploy.0 = Release|x64
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|x86.ActiveCfg = Release|x86
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|x86.Build.0 = Release|x86
+		{FBBDFB7C-D00D-4565-A38C-E64B0D17FFCB}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08B78D1B-BE91-401D-87D2-6BB7C99B9C43}
+	EndGlobalSection
+EndGlobal
