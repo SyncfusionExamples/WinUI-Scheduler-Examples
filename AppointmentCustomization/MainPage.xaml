@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="AppointmentCustomization.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppointmentCustomization"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:scheduler="using:Syncfusion.UI.Xaml.Scheduler"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <local:SchedulerViewModel/>
+    </Page.DataContext>
+    <Grid>
+        <scheduler:SfScheduler x:Name="Schedule" ItemsSource="{Binding Appointments}" ViewType="{Binding ElementName=viewtypecombobox,Path=SelectedValue,Mode=TwoWay}">
+            <scheduler:SfScheduler.AppointmentMapping>
+                <scheduler:AppointmentMapping StartTime="From"
+                                               EndTime="To"
+                                               Subject="EventName"
+                                               Foreground="ForegroundColor"
+                                               AppointmentBackground="BackgroundColor"
+                                               IsAllDay="IsAllDay"/>
+            </scheduler:SfScheduler.AppointmentMapping>
+            <scheduler:SfScheduler.DaysViewSettings>
+                <scheduler:DaysViewSettings>
+                    <scheduler:DaysViewSettings.AppointmentTemplate>
+                        <DataTemplate>
+                            <StackPanel Background="{Binding Data.BackgroundColor, TargetNullValue=Green}"  
+                        VerticalAlignment="Stretch" 
+                        HorizontalAlignment="Stretch"
+                        Orientation="Horizontal">
+                                <TextBlock Margin="5"
+                         VerticalAlignment="Center"
+                        Text="Meeting" 
+                        TextTrimming="CharacterEllipsis"
+                        Foreground="{Binding Data.ForegroundColor}"   
+                        TextWrapping="Wrap"
+                        FontStyle="Italic" 
+                        TextAlignment="Left"
+                        FontWeight="Normal"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </scheduler:DaysViewSettings.AppointmentTemplate>
+                </scheduler:DaysViewSettings>
+            </scheduler:SfScheduler.DaysViewSettings>
+        </scheduler:SfScheduler>
+
+        <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Margin="0,5,10,0">
+            <ComboBox Width="180" Height="30" x:Name="viewtypecombobox" SelectedIndex="2"/>
+        </StackPanel>
+    </Grid>
+</Page>
