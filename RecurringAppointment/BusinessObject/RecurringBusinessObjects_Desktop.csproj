@@ -1,29 +1,29 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
 		<TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
 		<TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
-		<RootNamespace>RecurringAppointment</RootNamespace>
+		<RootNamespace>RecurringBusinessObjects</RootNamespace>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
 		<Platforms>x86;x64;arm64</Platforms>
 		<RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
-		<AssemblyName>RecurringAppointment</AssemblyName>
+		<AssemblyName>RecurringBusinessObjects</AssemblyName>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
 		<DefineConstants>WinUI_Desktop</DefineConstants>
 	</PropertyGroup>
 	<ItemGroup>
 		<Compile Remove="Model\**" />
-		<Compile Remove="RecurringAppointment_Desktop\**" />
+		<Compile Remove="RecurringBusinessObjects_Desktop\**" />
 		<Compile Remove="ViewModel\**" />
 		<EmbeddedResource Remove="Model\**" />
-		<EmbeddedResource Remove="RecurringAppointment_Desktop\**" />
+		<EmbeddedResource Remove="RecurringBusinessObjects_Desktop\**" />
 		<EmbeddedResource Remove="ViewModel\**" />
 		<None Remove="Model\**" />
-		<None Remove="RecurringAppointment_Desktop\**" />
+		<None Remove="RecurringBusinessObjects_Desktop\**" />
 		<None Remove="ViewModel\**" />
 		<Page Remove="Model\**" />
-		<Page Remove="RecurringAppointment_Desktop\**" />
+		<Page Remove="RecurringBusinessObjects_Desktop\**" />
 		<Page Remove="ViewModel\**" />
 	</ItemGroup>
 	<ItemGroup>
@@ -33,7 +33,7 @@
 	<ItemGroup>
 		<None Remove="MainPage.xaml" />
 		<None Remove="Properties\Default.rd.xml" />
-		<None Remove="RecurringAppointment_UWP_TemporaryKey.pfx" />
+		<None Remove="RecurringBusinessObjects_UWP_TemporaryKey.pfx" />
 	</ItemGroup>
 	<ItemGroup>
 		<Page Remove="MainPage.xaml" />

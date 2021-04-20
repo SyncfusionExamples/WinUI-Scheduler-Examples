@@ -7,8 +7,8 @@
     <ProjectGuid>{FF1BB80B-C4E2-4606-B471-6D30D4FAB3F3}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RecurringAppointment</RootNamespace>
-    <AssemblyName>RecurringAppointment</AssemblyName>
+    <RootNamespace>RecurringBusinessObjects</RootNamespace>
+    <AssemblyName>RecurringBusinessObjects</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
@@ -100,7 +100,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="RecurringAppointment_UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -136,6 +135,9 @@
     <PackageReference Include="Syncfusion.Scheduler.WinUI">
       <Version>19.1.0.56-beta</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RecurringBusinessObjects_UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '$(MinimumVisualStudioVersion)' ">
     <VisualStudioVersion>$(MinimumVisualStudioVersion)</VisualStudioVersion>

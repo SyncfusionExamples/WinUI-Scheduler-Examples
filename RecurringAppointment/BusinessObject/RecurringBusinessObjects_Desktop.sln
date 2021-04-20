@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.218
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecurringAppointment_Desktop", "RecurringAppointment_Desktop.csproj", "{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecurringBusinessObjects_Desktop", "RecurringBusinessObjects_Desktop.csproj", "{26C074E5-A756-46CC-9478-C867B5D2AC11}"
 EndProject
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "RecurringAppointment_Desktop (Package)", "RecurringAppointment_Desktop\RecurringAppointment_Desktop (Package)\RecurringAppointment_Desktop (Package).wapproj", "{DFF9B63E-DCCA-4CFA-B2B0-39CB50D8A43E}"
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "RecurringBusinessObjects_Desktop (Package)", "RecurringBusinessObjects_Desktop\RecurringBusinessObjects_Desktop (Package)\RecurringBusinessObjects_Desktop (Package).wapproj", "{DFF9B63E-DCCA-4CFA-B2B0-39CB50D8A43E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,18 +17,18 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Debug|arm64.ActiveCfg = Debug|arm64
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Debug|arm64.Build.0 = Debug|arm64
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Debug|x64.ActiveCfg = Debug|x64
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Debug|x64.Build.0 = Debug|x64
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Debug|x86.ActiveCfg = Debug|x86
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Debug|x86.Build.0 = Debug|x86
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Release|arm64.ActiveCfg = Release|arm64
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Release|arm64.Build.0 = Release|arm64
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Release|x64.ActiveCfg = Release|x64
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Release|x64.Build.0 = Release|x64
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Release|x86.ActiveCfg = Release|x86
-		{A1BEAE41-4BD3-4536-81BB-BB8D8C426366}.Release|x86.Build.0 = Release|x86
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Debug|arm64.ActiveCfg = Debug|arm64
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Debug|arm64.Build.0 = Debug|arm64
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Debug|x64.ActiveCfg = Debug|x64
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Debug|x64.Build.0 = Debug|x64
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Debug|x86.ActiveCfg = Debug|x86
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Debug|x86.Build.0 = Debug|x86
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Release|arm64.ActiveCfg = Release|arm64
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Release|arm64.Build.0 = Release|arm64
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Release|x64.ActiveCfg = Release|x64
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Release|x64.Build.0 = Release|x64
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Release|x86.ActiveCfg = Release|x86
+		{26C074E5-A756-46CC-9478-C867B5D2AC11}.Release|x86.Build.0 = Release|x86
 		{DFF9B63E-DCCA-4CFA-B2B0-39CB50D8A43E}.Debug|arm64.ActiveCfg = Debug|arm64
 		{DFF9B63E-DCCA-4CFA-B2B0-39CB50D8A43E}.Debug|arm64.Build.0 = Debug|arm64
 		{DFF9B63E-DCCA-4CFA-B2B0-39CB50D8A43E}.Debug|arm64.Deploy.0 = Debug|arm64
@@ -52,6 +52,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6FC066EC-AE14-457B-A63C-B5B21AF0C1CD}
+		SolutionGuid = {904DBC78-9CE6-48B3-BBA8-842821D0FB7D}
 	EndGlobalSection
 EndGlobal

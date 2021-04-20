@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.UI;
 
-namespace RecurringAppointment
+namespace RecurringBusinessObjects
 {
   public class RecurringAppointmentViewModel : NotificationObject
     {

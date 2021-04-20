@@ -14,7 +14,7 @@
   <mp:PhoneIdentity PhoneProductId="946ce38f-6dcb-4a71-a30d-c6ed9db8b29b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>RecurringAppointment_UWP</DisplayName>
+    <DisplayName>RecurringBusinessObjects_UWP</DisplayName>
     <PublisherDisplayName>KarthickMani</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="RecurringAppointment_UWP.App">
+      EntryPoint="RecurringBusinessObjects_UWP.App">
       <uap:VisualElements
-        DisplayName="RecurringAppointment_UWP"
+        DisplayName="RecurringBusinessObjects_UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="RecurringAppointment_UWP"
+        Description="RecurringBusinessObjects_UWP"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
