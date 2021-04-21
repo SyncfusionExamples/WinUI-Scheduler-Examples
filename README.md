@@ -2,5 +2,4 @@
 
 This repository contains the samples that demonstrate the functionalities of WinUI Scheduler control.
 
-GettingStarted
-This sample demonstrates how to add events in the Scheduler
+https://help.syncfusion.com/winui/scheduler/getting-started
