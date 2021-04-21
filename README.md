@@ -3,3 +3,5 @@
 This repository contains the samples that demonstrate the functionalities of WinUI Scheduler control.
 
 https://help.syncfusion.com/winui/scheduler/getting-started
+
+https://www.syncfusion.com/winui-controls/scheduler
