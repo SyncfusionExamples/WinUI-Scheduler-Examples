@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleAppointment_Desktop", "ScheduleAppointment_Desktop.csproj", "{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}"
+EndProject
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "ScheduleAppointment_Desktop (Package)", "ScheduleAppointment_Desktop\ScheduleAppointment_Desktop (Package)\ScheduleAppointment_Desktop (Package).wapproj", "{F6264177-AF03-444C-8F65-FEAF5F169CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Debug|arm64.ActiveCfg = Debug|arm64
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Debug|arm64.Build.0 = Debug|arm64
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Debug|x64.ActiveCfg = Debug|x64
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Debug|x64.Build.0 = Debug|x64
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Debug|x86.ActiveCfg = Debug|x86
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Debug|x86.Build.0 = Debug|x86
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Release|arm64.ActiveCfg = Release|arm64
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Release|arm64.Build.0 = Release|arm64
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Release|x64.ActiveCfg = Release|x64
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Release|x64.Build.0 = Release|x64
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Release|x86.ActiveCfg = Release|x86
+		{EFBCA924-CC90-487A-A69A-B47EFE92F1A5}.Release|x86.Build.0 = Release|x86
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|arm64.ActiveCfg = Debug|arm64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|arm64.Build.0 = Debug|arm64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|arm64.Deploy.0 = Debug|arm64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|x64.ActiveCfg = Debug|x64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|x64.Build.0 = Debug|x64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|x64.Deploy.0 = Debug|x64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|x86.ActiveCfg = Debug|x86
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|x86.Build.0 = Debug|x86
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Debug|x86.Deploy.0 = Debug|x86
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|arm64.ActiveCfg = Release|arm64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|arm64.Build.0 = Release|arm64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|arm64.Deploy.0 = Release|arm64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|x64.ActiveCfg = Release|x64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|x64.Build.0 = Release|x64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|x64.Deploy.0 = Release|x64
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|x86.ActiveCfg = Release|x86
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|x86.Build.0 = Release|x86
+		{F6264177-AF03-444C-8F65-FEAF5F169CDC}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D872586A-D55C-4542-94BA-E80B4ADE85D0}
+	EndGlobalSection
+EndGlobal

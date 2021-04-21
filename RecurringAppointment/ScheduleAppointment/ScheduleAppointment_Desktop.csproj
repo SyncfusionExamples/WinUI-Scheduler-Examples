@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
+		<TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+		<RootNamespace>RecurringScheduleAppointment</RootNamespace>
+		<ApplicationManifest>app.manifest</ApplicationManifest>
+		<Platforms>x86;x64;arm64</Platforms>
+		<RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+		<AssemblyName>RecurringScheduleAppointment</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+		<DefineConstants>WinUI_Desktop</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Remove="RecurringScheduleAppointment_Desktop\**" />
+		<Compile Remove="ScheduleAppointment_Desktop\**" />
+		<Compile Remove="ViewModel\**" />
+		<EmbeddedResource Remove="RecurringScheduleAppointment_Desktop\**" />
+		<EmbeddedResource Remove="ScheduleAppointment_Desktop\**" />
+		<EmbeddedResource Remove="ViewModel\**" />
+		<None Remove="RecurringScheduleAppointment_Desktop\**" />
+		<None Remove="ScheduleAppointment_Desktop\**" />
+		<None Remove="ViewModel\**" />
+		<Page Remove="RecurringScheduleAppointment_Desktop\**" />
+		<Page Remove="ScheduleAppointment_Desktop\**" />
+		<Page Remove="ViewModel\**" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Remove="MainPage.xaml.cs" />
+		<Compile Remove="Properties\AssemblyInfo.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Remove="MainPage.xaml" />
+		<None Remove="Properties\Default.rd.xml" />
+		<None Remove="RecurringScheduleAppointment_UWP_TemporaryKey.pfx" />
+		<None Remove="ScheduleAppointment_UWP_TemporaryKey.pfx" />
+	</ItemGroup>
+	<ItemGroup>
+		<Page Remove="MainPage.xaml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="ViewModel\RecurringAppointmentViewModel.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Update="Microsoft.Windows.SDK.NET.Ref" RuntimeFrameworkVersion="10.0.19041.13" />
+		<PackageReference Include="Microsoft.ProjectReunion" Version="0.5.0" />
+		<PackageReference Include="Microsoft.ProjectReunion.Foundation" Version="0.5.0" />
+		<PackageReference Include="Microsoft.ProjectReunion.WinUI" Version="0.5.0" />
+		<PackageReference Include="Syncfusion.Core.WinUI" Version="19.1.0.57-beta" />
+		<PackageReference Include="Syncfusion.Editors.WinUI" Version="19.1.0.57-beta" />
+		<PackageReference Include="Syncfusion.Scheduler.WinUI" Version="19.1.0.57-beta" />
+		<Manifest Include="$(ApplicationManifest)" />
+	</ItemGroup>
+</Project>
