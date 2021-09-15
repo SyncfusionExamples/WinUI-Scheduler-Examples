@@ -1,0 +1,29 @@
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\Images\SplashScreen.scale-200.png
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\Images\LockScreenLogo.scale-200.png
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\Images\Square150x150Logo.scale-200.png
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\Images\Square44x44Logo.scale-200.png
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\Images\StoreLogo.png
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\Images\Wide310x150Logo.scale-200.png
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\resources.pri
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\microsoft.projectreunion.foundation\0.8.3\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\microsoft.projectreunion.winui\0.8.3\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\syncfusion.calendar.winui\19.3.0.39\lib\net5.0-windows10.0\Syncfusion.Calendar.WinUI.dll
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\syncfusion.core.winui\19.3.0.39\lib\net5.0-windows10.0\Syncfusion.Core.WinUI.dll
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\syncfusion.editors.winui\19.3.0.39\lib\net5.0-windows10.0\Syncfusion.Editors.WinUI.dll
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\syncfusion.licensing\19.3.0.39\lib\net5.0-windows10.0\Syncfusion.Licensing.dll
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\syncfusion.scheduler.winui\19.3.0.39\lib\net5.0-windows10.0\Syncfusion.Scheduler.WinUI.dll
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.18\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.18\lib\WinRT.Runtime.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\bin\x86\Debug\net5.0-windows10.0.19041.0\ResourceAutoRowHeight.deps.json
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\bin\x86\Debug\net5.0-windows10.0.19041.0\ResourceAutoRowHeight.runtimeconfig.dev.json
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe
+C:\Users\NaveenkumarSanjeevir\.nuget\packages\microsoft.projectreunion.foundation\0.8.3\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.pdb
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\bin\x86\Debug\net5.0-windows10.0.19041.0\ResourceAutoRowHeight.runtimeconfig.json
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\bin\x86\Debug\net5.0-windows10.0.19041.0\ResourceAutoRowHeight.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight\bin\x86\Debug\net5.0-windows10.0.19041.0\ResourceAutoRowHeight.pdb

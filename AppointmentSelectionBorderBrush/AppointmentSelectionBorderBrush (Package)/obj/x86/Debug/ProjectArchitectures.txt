@@ -1,0 +1,1 @@
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\AppointmentSelectionBorderBrush (Package).wapproj;x86

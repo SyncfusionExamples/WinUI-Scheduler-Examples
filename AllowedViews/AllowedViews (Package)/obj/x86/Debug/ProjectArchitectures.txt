@@ -1,0 +1,1 @@
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\AllowedViews (Package).wapproj;x86
