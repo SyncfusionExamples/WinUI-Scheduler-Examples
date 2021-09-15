@@ -1,0 +1,43 @@
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\App.xbf
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\MainWindow.xbf
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Microsoft.ApplicationModel.Resources.Projection.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Microsoft.WinUI.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Syncfusion.Calendar.WinUI.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Syncfusion.Core.WinUI.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Syncfusion.Editors.WinUI.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Microsoft.Windows.SDK.NET.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\WinRT.Runtime.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Syncfusion.Scheduler.WinUI.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\ResourceAutoRowHeight.deps.json
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\ResourceAutoRowHeight.runtimeconfig.dev.json
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\App.xbf
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\MainWindow.xbf
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\ResourceAutoRowHeight.exe
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Microsoft.ApplicationModel.Resources.Projection.pdb
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\ResourceAutoRowHeight.runtimeconfig.json
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\ResourceAutoRowHeight.dll
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\ResourceAutoRowHeight.pdb
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\resources.pri
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\AppxManifest.xml
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight (Package).build.appxrecipe
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\ResourceAutoRowHeight (Package).wapproj.AssemblyReference.cache
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\ResourceAutoRowHeight (Package).wapproj.CoreCompileInputs.cache
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\ResourceAutoRowHeight.pri.xml
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\priconfig.xml
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\priconfig.xml.intermediate
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\unfiltered.layout.resfiles
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\filtered.layout.resfiles
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\excluded.layout.resfiles
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\resources.resfiles
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\resources.resfiles.intermediate
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\pri.resfiles
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\pri.resfiles.intermediate
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\qualifiers.txt
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\ProjectArchitectures.txt
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\obj\x86\Debug\ResourceAutoRowHeight (Package).wapproj.LastBuild.txt
+D:\Scheduler samples\WinUI\ResourceAutoRowHeight\ResourceAutoRowHeight (Package)\bin\x86\Debug\ResourceAutoRowHeight\Syncfusion.Licensing.dll

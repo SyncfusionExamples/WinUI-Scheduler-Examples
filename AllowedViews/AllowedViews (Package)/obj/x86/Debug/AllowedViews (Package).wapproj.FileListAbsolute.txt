@@ -1,0 +1,43 @@
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\App.xbf
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\MainWindow.xbf
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Microsoft.ApplicationModel.Resources.Projection.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Microsoft.WinUI.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Syncfusion.Calendar.WinUI.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Syncfusion.Core.WinUI.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Syncfusion.Editors.WinUI.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Microsoft.Windows.SDK.NET.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\WinRT.Runtime.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Syncfusion.Scheduler.WinUI.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\AllowedViews.deps.json
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\AllowedViews.runtimeconfig.dev.json
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\App.xbf
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\MainWindow.xbf
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\AllowedViews.exe
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Microsoft.ApplicationModel.Resources.Projection.pdb
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\AllowedViews.runtimeconfig.json
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\AllowedViews.dll
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\AllowedViews.pdb
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\resources.pri
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AppxManifest.xml
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews (Package).build.appxrecipe
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\AllowedViews (Package).wapproj.AssemblyReference.cache
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\AllowedViews (Package).wapproj.CoreCompileInputs.cache
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\AllowedViews.pri.xml
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\priconfig.xml
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\priconfig.xml.intermediate
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\unfiltered.layout.resfiles
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\filtered.layout.resfiles
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\excluded.layout.resfiles
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\resources.resfiles
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\resources.resfiles.intermediate
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\pri.resfiles
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\pri.resfiles.intermediate
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\qualifiers.txt
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\ProjectArchitectures.txt
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\obj\x86\Debug\AllowedViews (Package).wapproj.LastBuild.txt
+D:\Scheduler samples\WinUI\AllowedViews\AllowedViews (Package)\bin\x86\Debug\AllowedViews\Syncfusion.Licensing.dll

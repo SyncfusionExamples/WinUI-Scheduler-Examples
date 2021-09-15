@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews (Package)\\AllowedViews (Package).wapproj": {}
+  },
+  "projects": {
+    "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews (Package)\\AllowedViews (Package).wapproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews (Package)\\AllowedViews (Package).wapproj",
+        "projectName": "AllowedViews (Package)",
+        "projectPath": "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews (Package)\\AllowedViews (Package).wapproj",
+        "packagesPath": "C:\\Users\\NaveenkumarSanjeevir\\.nuget\\packages\\",
+        "outputPath": "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews (Package)\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.3.0.39\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NaveenkumarSanjeevir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\WinUI\\19.3.0.39\\NuGetPackages": {},
+          "http://nexus.syncfusion.com/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "targetAlias": "net451",
+            "projectReferences": {
+              "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews\\AllowedViews.csproj": {
+                "projectPath": "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews\\AllowedViews.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "targetAlias": "net451",
+          "dependencies": {
+            "Microsoft.ProjectReunion": {
+              "include": "Build",
+              "target": "Package",
+              "version": "[0.8.3, 0.8.3]"
+            },
+            "Microsoft.ProjectReunion.WinUI": {
+              "include": "Build",
+              "target": "Package",
+              "version": "[0.8.3, 0.8.3]"
+            }
+          },
+          "imports": [
+            "net5.0-windows10.0.19041",
+            "netcoreapp3.1",
+            "netcoreapp3.0",
+            "netcoreapp2.0",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net6.0-windows10.0.19041",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400-preview.21328.4\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews\\AllowedViews.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews\\AllowedViews.csproj",
+        "projectName": "AllowedViews",
+        "projectPath": "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews\\AllowedViews.csproj",
+        "packagesPath": "C:\\Users\\NaveenkumarSanjeevir\\.nuget\\packages\\",
+        "outputPath": "D:\\Scheduler samples\\WinUI\\AllowedViews\\AllowedViews\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\19.3.0.39\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NaveenkumarSanjeevir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows10.0.19041"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\WinUI\\19.3.0.39\\NuGetPackages": {},
+          "http://nexus.syncfusion.com/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows10.0.19041": {
+            "targetAlias": "net5.0-windows10.0.19041.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows10.0.19041": {
+          "targetAlias": "net5.0-windows10.0.19041.0",
+          "dependencies": {
+            "Microsoft.ProjectReunion": {
+              "target": "Package",
+              "version": "[0.8.3, )"
+            },
+            "Microsoft.ProjectReunion.Foundation": {
+              "target": "Package",
+              "version": "[0.8.3, )"
+            },
+            "Microsoft.ProjectReunion.WinUI": {
+              "target": "Package",
+              "version": "[0.8.3, )"
+            },
+            "Syncfusion.Core.WinUI": {
+              "target": "Package",
+              "version": "[19.3.0.39, )"
+            },
+            "Syncfusion.Editors.WinUI": {
+              "target": "Package",
+              "version": "[19.3.0.39, )"
+            },
+            "Syncfusion.Scheduler.WinUI": {
+              "target": "Package",
+              "version": "[19.3.0.39, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+              "version": "[5.0.6, 5.0.6]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[5.0.6, 5.0.6]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[5.0.6, 5.0.6]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+              "version": "[5.0.6, 5.0.6]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[5.0.6, 5.0.6]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[5.0.6, 5.0.6]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.18, 10.0.19041.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[5.0.6, 5.0.6]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[5.0.6, 5.0.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400-preview.21328.4\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-arm64": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

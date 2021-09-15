@@ -1,0 +1,43 @@
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\AppointmentSelectionBorderBrush (Package).wapproj.CoreCompileInputs.cache
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\App.xbf
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\MainWindow.xbf
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Microsoft.ApplicationModel.Resources.Projection.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Microsoft.WinUI.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Syncfusion.Calendar.WinUI.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Syncfusion.Core.WinUI.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Syncfusion.Editors.WinUI.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Syncfusion.Licensing.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Syncfusion.Scheduler.WinUI.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Microsoft.Windows.SDK.NET.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\WinRT.Runtime.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush.deps.json
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush.runtimeconfig.dev.json
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\App.xbf
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\MainWindow.xbf
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush.exe
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\Microsoft.ApplicationModel.Resources.Projection.pdb
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush.runtimeconfig.json
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush.dll
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush.pdb
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\resources.pri
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppxManifest.xml
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\bin\x86\Debug\AppointmentSelectionBorderBrush (Package).build.appxrecipe
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\AppointmentSelectionBorderBrush (Package).wapproj.AssemblyReference.cache
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\AppointmentSelectionBorderBrush.pri.xml
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\priconfig.xml
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\priconfig.xml.intermediate
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\unfiltered.layout.resfiles
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\filtered.layout.resfiles
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\excluded.layout.resfiles
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\resources.resfiles
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\resources.resfiles.intermediate
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\pri.resfiles
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\pri.resfiles.intermediate
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\qualifiers.txt
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\ProjectArchitectures.txt
+D:\Scheduler samples\WinUI\AppointmentSelectionBorderBrush\AppointmentSelectionBorderBrush (Package)\obj\x86\Debug\AppointmentSelectionBorderBrush (Package).wapproj.LastBuild.txt
