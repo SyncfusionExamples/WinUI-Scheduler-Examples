@@ -41,10 +41,46 @@
                                              Green="{StaticResource monthCellTemplate4}"
                                              DarkGreen="{StaticResource monthCellTemplate5}" />
         </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
         <scheduler:SfScheduler x:Name="scheduler" AppointmentEditFlag="None">
             <scheduler:SfScheduler.MonthViewSettings>
                 <scheduler:MonthViewSettings MonthCellTemplateSelector="{StaticResource monthCellTemplateSelector}" />
             </scheduler:SfScheduler.MonthViewSettings>
         </scheduler:SfScheduler>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.1*"/>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="0.1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="1" HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.4*"/>
+                    <RowDefinition Height="0.6*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Less"  HorizontalTextAlignment="Start" VerticalAlignment="Bottom" Grid.Row="0"/>
+                <TextBlock Text="More"  HorizontalTextAlignment="End" VerticalAlignment="Bottom" Grid.Row="0"/>
+                <Border Grid.Row="1" Margin="0,2,0,5" Height="20" MinWidth="500" VerticalAlignment="Top">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="1,1">
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStopCollection>
+                                    <GradientStop Color="#eeeeee" Offset="0.0" />
+                                    <GradientStop Color="#c6e48b" Offset="0.3" />
+                                    <GradientStop Color="#7bc96f" Offset="0.6" />
+                                    <GradientStop Color="#239a3b" Offset="0.8" />
+                                    <GradientStop Color="#196127" Offset="1.0" />
+                                </GradientStopCollection>
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
