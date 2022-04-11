@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FareCalendar
+namespace FareCalendar_DataTemplateSelector
 {
     public class Airline : NotificationObject
     {

@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="FareCalendar.App"
+    x:Class="FareCalendar_DataTemplateSelector.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:FareCalendar">
+    xmlns:local="using:FareCalendar_DataTemplateSelector">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
