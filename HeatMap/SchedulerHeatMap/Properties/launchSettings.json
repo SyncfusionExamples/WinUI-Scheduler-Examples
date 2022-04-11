@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SchedulerHeatMap (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SchedulerHeatMap (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
