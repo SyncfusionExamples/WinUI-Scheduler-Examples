@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
     xmlns:notification="using:Syncfusion.UI.Xaml.Notifications"
-    xmlns:syncfusion="using:Syncfusion.UI.Xaml.Scheduler"
+    xmlns:Scheduler="using:Syncfusion.UI.Xaml.Scheduler"
     mc:Ignorable="d">
 
     <Grid>
@@ -53,20 +53,20 @@
                                              MonthCellWithBestPriceTemplate="{StaticResource monthCellTemplateWithBestPrice}"
                                              MonthCellWithoutBestPriceTemplate="{StaticResource monthCellTemplateWithoutBestPrice}"/>
         </Grid.Resources>
-        <syncfusion:SfScheduler x:Name="scheduler"
+        <Scheduler:SfScheduler x:Name="scheduler"
                                 ItemsSource="{Binding AirlineCollection}"
                                ShowBusyIndicator="True"
                                AppointmentEditFlag="None">
-            <syncfusion:SfScheduler.AppointmentMapping>
-                <syncfusion:AppointmentMapping Subject="Name"
+            <Scheduler:SfScheduler.AppointmentMapping>
+                <Scheduler:AppointmentMapping Subject="Name"
                                                Notes="Fare"
                                                StartTime="Date"
                                                AppointmentBackground="Color" />
-            </syncfusion:SfScheduler.AppointmentMapping>
-            <syncfusion:SfScheduler.MonthViewSettings>
-                <syncfusion:MonthViewSettings AppointmentDisplayMode="None"
+            </Scheduler:SfScheduler.AppointmentMapping>
+            <Scheduler:SfScheduler.MonthViewSettings>
+                <Scheduler:MonthViewSettings AppointmentDisplayMode="None"
                                               MonthCellTemplateSelector="{StaticResource monthCellTemplateSelector}"/>
-            </syncfusion:SfScheduler.MonthViewSettings>
-        </syncfusion:SfScheduler>
+            </Scheduler:SfScheduler.MonthViewSettings>
+        </Scheduler:SfScheduler>
     </Grid>
 </Window>

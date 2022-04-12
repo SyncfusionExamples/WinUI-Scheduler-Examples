@@ -5,26 +5,26 @@
     xmlns:local="using:FareCalendar_DataTemplate"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:syncfusion="using:Syncfusion.UI.Xaml.Scheduler"
+    xmlns:Scheduler="using:Syncfusion.UI.Xaml.Scheduler"
     mc:Ignorable="d">
 
     <Grid>
         <Grid.DataContext>
             <local:AirlinesViewModel />
         </Grid.DataContext>
-        <syncfusion:SfScheduler x:Name="scheduler"
+        <Scheduler:SfScheduler x:Name="scheduler"
                         ItemsSource="{Binding AirlineCollection}"
                         ShowBusyIndicator="True"
                         AppointmentEditFlag="None">
-            <syncfusion:SfScheduler.AppointmentMapping>
-                <syncfusion:AppointmentMapping Subject="Name"
+            <Scheduler:SfScheduler.AppointmentMapping>
+                <Scheduler:AppointmentMapping Subject="Name"
                                        Notes="Fare"
                                        StartTime="Date"
                                        AppointmentBackground="Color" />
-            </syncfusion:SfScheduler.AppointmentMapping>
-            <syncfusion:SfScheduler.MonthViewSettings>
-                <syncfusion:MonthViewSettings AppointmentDisplayMode="None">
-                    <syncfusion:MonthViewSettings.MonthCellTemplate>
+            </Scheduler:SfScheduler.AppointmentMapping>
+            <Scheduler:SfScheduler.MonthViewSettings>
+                <Scheduler:MonthViewSettings AppointmentDisplayMode="None">
+                    <Scheduler:MonthViewSettings.MonthCellTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Vertical">
                                 <TextBlock x:Name="TextBlock" HorizontalAlignment="Left" Margin="5,5,0,0" Text="{Binding Path=DateText}" />
@@ -46,9 +46,9 @@
                                 </ListView>
                             </StackPanel>
                         </DataTemplate>
-                    </syncfusion:MonthViewSettings.MonthCellTemplate>
-                </syncfusion:MonthViewSettings>
-            </syncfusion:SfScheduler.MonthViewSettings>
-        </syncfusion:SfScheduler>
+                    </Scheduler:MonthViewSettings.MonthCellTemplate>
+                </Scheduler:MonthViewSettings>
+            </Scheduler:SfScheduler.MonthViewSettings>
+        </Scheduler:SfScheduler>
     </Grid>
 </Window>
