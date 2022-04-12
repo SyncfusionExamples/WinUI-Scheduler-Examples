@@ -8,46 +8,56 @@
     xmlns:Scheduler="using:Syncfusion.UI.Xaml.Scheduler"
     mc:Ignorable="d">
     <Grid>
+        <Grid.DataContext>
+            <local:HeatMapViewModel />
+        </Grid.DataContext>
         <Grid.Resources>
-            <DataTemplate x:Key="monthCellTemplate1">
+            <DataTemplate x:Key="lightGrayTemplate">
                 <Grid Background="#eeeeee">
                 <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
             </Grid>
             </DataTemplate>
-            <DataTemplate x:Key="monthCellTemplate2">
+            <DataTemplate x:Key="lightGreenTemplate">
                 <Grid Background="#c6e48b">
                     <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
                 </Grid>
             </DataTemplate>
-            <DataTemplate x:Key="monthCellTemplate3">
+            <DataTemplate x:Key="midGreenTemplate">
                 <Grid Background="#7bc96f">
                     <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
                 </Grid>
             </DataTemplate>
-            <DataTemplate x:Key="monthCellTemplate4">
+            <DataTemplate x:Key="greenTemplate">
                 <Grid Background="#239a3b">
                     <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
                 </Grid>
             </DataTemplate>
-            <DataTemplate x:Key="monthCellTemplate5">
+            <DataTemplate x:Key="darkGreenTemplate">
                 <Grid Background="#196127">
                     <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
                 </Grid>
             </DataTemplate>
             <local:MonthCellTemplateSelector x:Key="monthCellTemplateSelector" 
-                                             LightGray="{StaticResource monthCellTemplate1}" 
-                                             LightGreen="{StaticResource monthCellTemplate2}"
-                                             MidGreen="{StaticResource monthCellTemplate3}"
-                                             Green="{StaticResource monthCellTemplate4}"
-                                             DarkGreen="{StaticResource monthCellTemplate5}" />
+                                             LightGrayTemplate="{StaticResource lightGrayTemplate}" 
+                                             LightGreenTemplate="{StaticResource lightGreenTemplate}"
+                                             MidGreenTemplate="{StaticResource midGreenTemplate}"
+                                             GreenTemplate="{StaticResource greenTemplate}"
+                                             DarkGreenTemplate="{StaticResource darkGreenTemplate}" />
         </Grid.Resources>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <Scheduler:SfScheduler x:Name="scheduler" AppointmentEditFlag="None">
+        <Scheduler:SfScheduler x:Name="scheduler" 
+                               ItemsSource="{Binding InternetDataCollection}"
+                               AppointmentEditFlag="None">
+            <Scheduler:SfScheduler.AppointmentMapping>
+                <Scheduler:AppointmentMapping StartTime="Date"
+                                              AppointmentBackground="Color"/>
+            </Scheduler:SfScheduler.AppointmentMapping>
             <Scheduler:SfScheduler.MonthViewSettings>
-                <Scheduler:MonthViewSettings MonthCellTemplateSelector="{StaticResource monthCellTemplateSelector}" />
+                <Scheduler:MonthViewSettings AppointmentDisplayMode="None" 
+                                             MonthCellTemplateSelector="{StaticResource monthCellTemplateSelector}" />
             </Scheduler:SfScheduler.MonthViewSettings>
         </Scheduler:SfScheduler>
         <Grid Grid.Row="1">
