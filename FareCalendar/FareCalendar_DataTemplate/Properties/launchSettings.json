@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FareCalendar_DataTemplate (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "FareCalendar_DataTemplate (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

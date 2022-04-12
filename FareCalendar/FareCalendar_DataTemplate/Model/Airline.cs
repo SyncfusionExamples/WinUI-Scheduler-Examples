@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FareCalendar_DataTemplateSelector
+namespace FareCalendar_DataTemplate
 {
     /// <summary>    
     /// Represents the airline data properties.    
