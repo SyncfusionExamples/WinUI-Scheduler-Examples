@@ -19,7 +19,7 @@ namespace SchedulerHeatMap
 			this.GenerateData();
 		}
 
-		public ObservableCollection<InternetData> InternetDataCollection { get; set; }
+		public ObservableCollection<InternetData> InternetDataUsages { get; set; }
 
 		/// <summary>
 		/// Generate random data for heat map calendar based on internet data usage.
@@ -27,24 +27,19 @@ namespace SchedulerHeatMap
 		private void GenerateData()
 		{
 			//// Creating an instance for internet data collection.
-			InternetDataCollection = new ObservableCollection<InternetData>();
+			InternetDataUsages = new ObservableCollection<InternetData>();
 			var startDate = DateTime.Now.Date.AddMonths(-2);
 			var random = new Random();
-			//// Data usage in terms of GB.
-			var dataCollection = new ObservableCollection<int>()
-		{
-			1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
-		};
 
 			//// Adding random data to the internet data collection.
 			for (int i = 0; i < 200; i++)
 			{
-				var dataUsage = dataCollection[random.Next(0, dataCollection.Count)];
 				InternetData internetData = new InternetData();
 				internetData.Date = startDate.AddDays(i);
-				internetData.Usage = dataUsage;
-				internetData.Color = GetColor(dataUsage);
-				this.InternetDataCollection.Add(internetData);
+				//// Data usage in terms of GB.
+				internetData.Usage = random.Next(0, 15);
+				internetData.Color = GetColor(internetData.Usage);
+				this.InternetDataUsages.Add(internetData);
 			}
 		}
 
@@ -54,6 +49,7 @@ namespace SchedulerHeatMap
 		/// <param name="data"></param>
 		private Brush GetColor(int data)
 		{
+			//// Data usage in terms of GB.
 			if (data < 3)
 			{
 				return new SolidColorBrush(Color.FromArgb(255, 238, 238, 238));

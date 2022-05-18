@@ -11,53 +11,30 @@
         <Grid.DataContext>
             <local:HeatMapViewModel />
         </Grid.DataContext>
-        <Grid.Resources>
-            <DataTemplate x:Key="lightGrayTemplate">
-                <Grid Background="#eeeeee">
-                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
-            </Grid>
-            </DataTemplate>
-            <DataTemplate x:Key="lightGreenTemplate">
-                <Grid Background="#c6e48b">
-                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
-                </Grid>
-            </DataTemplate>
-            <DataTemplate x:Key="midGreenTemplate">
-                <Grid Background="#7bc96f">
-                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
-                </Grid>
-            </DataTemplate>
-            <DataTemplate x:Key="greenTemplate">
-                <Grid Background="#239a3b">
-                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
-                </Grid>
-            </DataTemplate>
-            <DataTemplate x:Key="darkGreenTemplate">
-                <Grid Background="#196127">
-                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
-                </Grid>
-            </DataTemplate>
-            <local:MonthCellTemplateSelector x:Key="monthCellTemplateSelector" 
-                                             LightGrayTemplate="{StaticResource lightGrayTemplate}" 
-                                             LightGreenTemplate="{StaticResource lightGreenTemplate}"
-                                             MidGreenTemplate="{StaticResource midGreenTemplate}"
-                                             GreenTemplate="{StaticResource greenTemplate}"
-                                             DarkGreenTemplate="{StaticResource darkGreenTemplate}" />
-        </Grid.Resources>
+      
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <Scheduler:SfScheduler x:Name="scheduler" 
-                               ItemsSource="{Binding InternetDataCollection}"
+                               ItemsSource="{Binding InternetDataUsages}"
                                AppointmentEditFlag="None">
+            <!--The collection of internet data object can be assigned to the scheduler ItemsSource property in order to generate the details of appointments in the MonthCell which is used to get the details of the internet data usage for the day-->
             <Scheduler:SfScheduler.AppointmentMapping>
                 <Scheduler:AppointmentMapping StartTime="Date"
                                               AppointmentBackground="Color"/>
             </Scheduler:SfScheduler.AppointmentMapping>
             <Scheduler:SfScheduler.MonthViewSettings>
-                <Scheduler:MonthViewSettings AppointmentDisplayMode="None" 
-                                             MonthCellTemplateSelector="{StaticResource monthCellTemplateSelector}" />
+                <Scheduler:MonthViewSettings AppointmentDisplayMode="None">
+                    <!--Declare the DataTemplate for the scheduler month cell in order to create the heatmap calendar-->
+                    <Scheduler:MonthViewSettings.MonthCellTemplate>
+                        <DataTemplate>
+                            <Grid Background="{Binding Appointments[0].Data.Color}">
+                                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" Text="{Binding DateText}" />
+                            </Grid>
+                        </DataTemplate>
+                    </Scheduler:MonthViewSettings.MonthCellTemplate>
+                </Scheduler:MonthViewSettings>
             </Scheduler:SfScheduler.MonthViewSettings>
         </Scheduler:SfScheduler>
         <Grid Grid.Row="1">
