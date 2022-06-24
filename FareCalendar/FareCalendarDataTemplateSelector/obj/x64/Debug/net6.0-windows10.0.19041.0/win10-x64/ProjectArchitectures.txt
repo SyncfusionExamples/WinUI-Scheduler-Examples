@@ -1,0 +1,1 @@
+C:\Users\JeyasriM\Desktop\Blog\WinUI-Scheduler-Examples\FareCalendar\FareCalendarDataTemplateSelector\FareCalendarDataTemplateSelector.csproj;x64
