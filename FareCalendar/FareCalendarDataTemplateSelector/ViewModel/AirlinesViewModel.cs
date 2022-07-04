@@ -62,19 +62,16 @@ namespace FareCalendarDataTemplateSelector
 
             for (int startdate = -100; startdate < 100; startdate++)
             {
-                for (int i = 0; i < 1; i++)
+                for (int j = 1; j <= 3; j++)
                 {
-                    for (int j = 1; j <= 3; j++)
-                    {
-                        var airline = new Airline();
-                        airline.Name = "Airways " + j.ToString();
-                        //// Adding random fares for airways.
-                        airline.Fare = airwaysFares[random.Next(0, 20)];
-                        airline.Cost = "$" + airline.Fare.ToString();
-                        airline.Color = GetAirlineColor(airline.Name);
-                        airline.Date = DateTime.Now.Date.AddDays(startdate);
-                        fares.Add(airline);
-                    }
+                    var airline = new Airline();
+                    airline.Name = "Airways " + j.ToString();
+                    //// Adding random fares for airways.
+                    airline.Fare = airwaysFares[random.Next(0, 20)];
+                    airline.Cost = "$" + airline.Fare.ToString();
+                    airline.Color = GetAirlineColor(airline.Name);
+                    airline.Date = DateTime.Now.Date.AddDays(startdate);
+                    fares.Add(airline);
                 }
             }
 
