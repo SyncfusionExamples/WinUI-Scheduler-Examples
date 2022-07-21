@@ -25,6 +25,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.0" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22000.194" />
+    <PackageReference Include="Syncfusion.Core.WinUI" Version="*" />
     <PackageReference Include="Syncfusion.Scheduler.WinUI" Version="*" />
     <PackageReference Include="Syncfusion.Notifications.WinUI" Version="*" />
     <Manifest Include="$(ApplicationManifest)" />
